@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manisha's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="particles.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+          </ul>
+          <!-- <i class="fa fa-bars" onclick="openmenu()"></i> -->
+        </nav>
+        <div class="header-text">
+          <p>
+            <img src="images/cooltext.gif" alt="cooltext" class="gif-image" />
+          </p>
+          <h1>Hi, I'm <span class="auto-type1">Manisha Maharjan</span></h1>
+          <h3>
+            A learner who likes
+            <span class="auto-type"></span>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- .........about me......... -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Namaste, I am manisha maharjan, a 23 + year passionate and
+              ambitious graphic designer, I bring a fresh perspective and a
+              strong desire to excel in the field. While I may be considered a
+              fresher, I firmly believe that my skills, creativity, and
+              dedication set me apart. Ultimately, my goal as a graphic designer
+              is to create designs that not only meet clients' needs but also
+              leave a lasting impact on their target audience. With my
+              comprehensive skill set, dedication, and a passion for design, I
+              am confident in my ability to consistently deliver exceptional
+              results and make a positive impact through my work. so, let
+              connect and discover how i can help you bring your idea to life !!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Illustrator</span><br />Designing Web/App and other
+                  design interfaces
+                </li>
+                <li>
+                  <span>Photoshop</span><br />Designing Web/App and other design
+                  interfaces
+                </li>
+                <li>
+                  <span>Tally</span><br />Financial record-keeping and
+                  management
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - 2023</span><br />HOUSELAND PVT.LTD-Receptionist
+                  Managed telecommunication system and handled social media
+                </li>
+                <li>
+                  <span>2016 - 2020</span><br />WEE CLOTHING STORE-Entrepreneur
+                  Ran a business clothing store at a profit for 5 years
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2018 - 2022</span><br />Whiteflied international college
+                  - BBS
+                </li>
+                <li>
+                  <span>2016 - 2017</span><br />NCCS - Higher Secondary
+                  Education
+                </li>
+                <li>
+                  <span>2004 - 2015</span><br />Harvard Internation School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------Services---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h2>Graphics Design</h2>
+            <p>
+              Graphic designers always seek to make a creative design that
+              entails planning, designing, and organizing visual elements to
+              convey a specific message or idea. In order to create visually
+              appealing and effective designs, it combines text, images,
+              illustrations, colors, and various design elements.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa fa-crop" aria-hidden="true"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UI/UX designers collaborate with cross-functional teams, including
+              product managers, developers, and stakeholders, to understand user
+              needs, business goals, and technical constraints. They use their
+              design skills and knowledge to create intuitive and visually
+              appealing interfaces that enhance the overall user experience.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            <h2>App Design</h2>
+            <p>
+              As an app designer, my role is to create intuitive and visually
+              appealing designs for mobile applications that enhance the user
+              experience. App design focuses on creating interfaces and
+              interactions specifically tailored for mobile devices, considering
+              the unique constraints and opportunities they offer.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------Portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>ADVERTISEMENT OF CHOCOLATE</h3>
+              <p>
+                Designed this to clearly demonstrate the unique and eye-catching
+                nature of the advertising. This design is created using Adobe
+                Photoshop. It is extremely important to create an advertising
+                campaign that is unique and appealing, as this will capture the
+                viewer's attention and engage them, increasing their likelihood
+                of remembering and responding to the message. It allows
+                companies to showcase their values, sense of humor, creativity,
+                or other distinctive traits.
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>INFOGRAPHY</h3>
+              <p>
+                While creating this infographic in Adobe Illustrator, there were
+                several techniques and features used such as shape tool,
+                Typography, pen tool, Color and Contrast, Alignment and
+                Distribution, Effects and Styles, Iconography, Gradient and
+                Messy Tool, Eyedropper Tool, etc. And the main role of designing
+                this infographic is to serve as a powerful communication tool,
+                enabling viewers to quickly grasp and understand information
+                that would otherwise be difficult to process or comprehend in
+                text form alone.
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>TYPOGRAPHY</h3>
+              <p>
+                My main motive for creating this typography is to visually
+                capture the essence of a cup of coffee and create a unique and
+                engaging typographic representation. Creating Text, Formatting
+                Text and Text Effects were some common techniques, I used in
+                Illustrator while creating it. This style of typography combines
+                the art of typography which offers a playful and artistic
+                approach to combining the visual elements of coffee with
+                creative lettering.
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/tuition.png" />
+            <div class="layer">
+              <h3>TUITION ADVERTISEMENT</h3>
+              <p>
+                While creating this advertisement in Adobe Photoshop, i have
+                used various tools and features. I have designed this
+                advertisement for a tuition center (CREATIVE EDUCATIONAL
+                FOUNDATION PVT.LTD) for their advertisement purpose. The design
+                of an advertisement is crucial because it captures attention,
+                effectively communicates the message, and establishes brand
+                identity. A well-designed advertisement has the power to leave a
+                lasting impact on the audience, drive engagement, and ultimately
+                lead to the desired action or response from the viewers.
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/website sample.png" />
+            <div class="layer">
+              <h3>News Portal Website Sample</h3>
+              <p>
+                I have designed this website for the magazine (visionary
+                creatives) using Photoshop and Illustrator. Creating a unique
+                website design is essential for branding, user experience,
+                differentiation, visual appeal, credibility, adaptability, and
+                SEO. It helps you establish a strong online presence, engage
+                users, build trust, and stand out in a competitive digital
+                landscape.
+              </p>
+              <a href="#"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="images/profolio.pdf" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ------------Contact------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>
+              manishamaharjan232@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 9813517503</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/MY-CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder=" Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @ Manisha. Made with <i class="fa-brands fa-dev"></i>By
+          WED-DEV-ROM
+        </p>
+      </div>
+    </div>
+    <!-- scroll top button  -->
+
+    <a href="#header" class="top">
+      <img src="images/scroll-top-img.png" alt="" />
+    </a>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <!-- <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script> -->
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw2VVQ6eM2yMw4V48rjMCbuPU03uFsT1dJJvjNfn7ydyNYWtP3qVLm9bzfXuIeIQAIu/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+    <script>
+      particlesJS("particles-js", {
+        particles: {
+          number: { value: 80, density: { enable: true, value_area: 800 } },
+          color: { value: "#ff7300" },
+          shape: {
+            type: ["circle", "traingle"],
+            stroke: { width: 0, color: "#ff7300" },
+            polygon: { nb_sides: 5 },
+            image: { src: "img/github.svg", width: 100, height: 100 },
+          },
+          opacity: {
+            value: 1,
+            random: true,
+            anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
+          },
+          size: {
+            value: 10,
+            random: true,
+            anim: { enable: false, speed: 40, size_min: 0.1, sync: false },
+          },
+          line_linked: {
+            enable: true,
+            distance: 32,
+            color: "#ff7300",
+            opacity: 0.3,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 6,
+            direction: "none",
+            random: true,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: { enable: false, rotateX: 600, rotateY: 1200 },
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: { enable: true, mode: "repulse" },
+            onclick: { enable: true, mode: "push" },
+            resize: true,
+          },
+          modes: {
+            grab: { distance: 400, line_linked: { opacity: 4 } },
+            bubble: {
+              distance: 400,
+              size: 60,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: { distance: 200, duration: 0.4 },
+            push: { particles_nb: 4 },
+            remove: { particles_nb: 2 },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Designing.", "Implementing.", "Creative solutions."],
+        typeSpeed: 100,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+    <script>
+      var typed = new Typed(".auto-type1", {
+        strings: ["Manisha Maharjan"],
+        typeSpeed: 100,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#menu").click(function () {
+          $(this).toggleClass("fa-times");
+          $("header").toggleClass("toggle");
+        });
+
+        $(window).on("scroll load", function () {
+          $("#menu").removeClass("fa-times");
+          $("header").removeClass("toggle");
+
+          if ($(window).scrollTop() > 0) {
+            $(".top").show();
+          } else {
+            $(".top").hide();
+          }
+        });
+
+        // smooth scrolling
+
+        $('a[href*="#"]').on("click", function (e) {
+          e.preventDefault();
+
+          $("html, body").animate(
+            {
+              scrollTop: $($(this).attr("href")).offset().top,
+            },
+            500,
+            "linear"
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
