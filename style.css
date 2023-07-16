@@ -286,6 +286,31 @@ nav ul li a:hover::after {
 .btn:hover {
   background: #ff7300;
 }
+/* Trainings certidicates */
+.certificate {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 10px;
+}
+
+.certificate img {
+  width: 33.333%;
+  height: auto;
+  padding: 5px;
+}
+
+@media (max-width: 50em) {
+  .certificate img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 25em) {
+  .certificate img {
+    width: 100%;
+  }
+}
 
 /* ----------contact-------- */
 .contact-left {
